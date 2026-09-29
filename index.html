@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shengjing Xu, mathematics Ph.D. student at the University of Pennsylvania. Research in complex algebraic geometry and probability.">
+  <meta name="author" content="Shengjing Xu">
+  <meta name="theme-color" content="#e9f0f3">
+  <meta property="og:title" content="Shengjing Xu | Mathematics">
+  <meta property="og:description" content="Complex algebraic geometry and probability. University of Pennsylvania.">
+  <meta property="og:type" content="website">
+  <title>Shengjing Xu | Mathematics</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23173b5c'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia,serif' font-size='32' fill='white'%3ESX%3C/text%3E%3C/svg%3E">
+  <style>
+    :root { color-scheme:light; --ink:#26323b; --navy:#173b5c; --link:#225f8b; --muted:#58656e; --line:#cddbe1; --page:#eef3f4; --header:#e9f0f3; --serif:Georgia,'Times New Roman',serif; --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; }
+    * { box-sizing:border-box; }
+    html { scroll-padding-top:7rem; }
+    body { margin:0; border-top:4px solid var(--navy); background-color:var(--page); background-image:radial-gradient(ellipse at 8% 0%,rgba(202,225,237,.65),transparent 65%),linear-gradient(135deg,#edf3f5 0%,#f4f4f0 55%,#eaf1f4 100%); background-attachment:fixed; color:var(--ink); font:1.0625rem/1.8 var(--sans); -webkit-font-smoothing:antialiased; }
+    a { color:var(--link); text-decoration-thickness:1px; text-underline-offset:4px; }
+    a:hover { color:#102f49; text-decoration:underline; }
+    a:focus-visible { outline:3px solid #4c87b1; outline-offset:4px; }
+    p { margin:0 0 1rem; }
+    .container { width:min(920px,calc(100% - 64px)); margin-inline:auto; }
+    .skip { position:absolute; left:1rem; top:-5rem; z-index:10; background:white; padding:.5rem 1rem; }
+    .skip:focus { top:.5rem; }
+    .site-header { background-color:var(--header); background-image:linear-gradient(rgba(239,246,248,.70),rgba(239,246,248,.70)),url("assets/asen-after-rain-cover.jpg"); background-size:cover; background-position:center 62%; background-repeat:no-repeat; border-bottom:1px solid #b4c8d2; }
+    .header-inner { display:flex; align-items:center; justify-content:space-between; gap:1.5rem; min-height:96px; }
+    .wordmark { font:1.35rem var(--serif); color:var(--navy); text-decoration:none; white-space:nowrap; }
+    nav { display:flex; flex-wrap:wrap; gap:.35rem 1.6rem; font-size:.9375rem; }
+    nav a { color:var(--navy); text-decoration:none; padding:.4rem 0; font-weight:500; }
+    .intro { display:flow-root; padding:3.3rem 0 2.7rem; }
+    .portrait { float:right; display:block; width:240px; height:auto; margin:0 0 1.5rem 2.5rem; border-radius:4px; }
+    .eyebrow { margin-bottom:.7rem; color:var(--muted); font-size:.875rem; letter-spacing:.07em; text-transform:uppercase; }
+    h1,h2,h3 { color:var(--navy); font-family:var(--serif); font-weight:normal; }
+    h1 { font-size:3.1rem; line-height:1.15; letter-spacing:-.025em; margin:0 0 1.4rem; }
+    .intro-copy { font-size:1.0625rem; line-height:1.85; }
+    .intro-copy a { text-decoration:none; border-bottom:1px solid #b4c8d7; }
+    .job-market { color:var(--navy); }
+    .intro-copy .degree-note { color:var(--muted); font-size:.9375rem; }
+    .quick-links { display:flex; flex-wrap:wrap; gap:.5rem 1.8rem; margin-top:1.3rem; font-size:1rem; }
+    .quick-links a { text-decoration:none; }
+    .quick-links span { color:var(--muted); font-size:.875rem; }
+    section.content-section { padding:2.1rem 0 2.5rem; border-top:1px solid var(--line); }
+    .section-heading { margin-bottom:1.5rem; }
+    h2 { font-size:1.75rem; line-height:1.35; margin:0; }
+    .activity-list { list-style:none; padding:0; margin:0; }
+    .activity-list li { display:grid; grid-template-columns:110px minmax(0,1fr); gap:1.5rem; margin-bottom:1.1rem; font-size:1rem; }
+    .activity-list li:last-child { margin-bottom:0; }
+    .activity-list time { color:var(--muted); font-size:.9375rem; }
+    .activity-detail { display:block; color:#53626d; font-size:.9375rem; }
+    .paper-list { list-style:none; padding:0; margin:0; }
+    .paper { display:grid; grid-template-columns:48px minmax(0,1fr); gap:1.1rem; padding:1.2rem 0; border-bottom:1px solid var(--line); }
+    .paper:first-child { padding-top:0; }
+    .paper:last-child { border-bottom:0; padding-bottom:0; }
+    .paper-year { color:var(--muted); font-size:.875rem; padding-top:.2rem; font-variant-numeric:tabular-nums; }
+    .paper h3 { font-size:1.2rem; line-height:1.5; margin:0 0 .25rem; }
+    .paper-tag { margin-left:.35rem; color:var(--muted); font:400 .8125rem/1.4 var(--sans); white-space:nowrap; }
+    .authors { margin:0; color:#586570; font-size:.9375rem; }
+    .authors .self { color:#293e4d; }
+    .paper-links { display:flex; flex-wrap:wrap; gap:.25rem 1rem; margin:.3rem 0 0; align-items:baseline; font-size:.875rem; }
+    .paper-links a { text-decoration:none; }
+    .status { color:var(--muted); }
+    .subheading { font-size:1.3rem; margin:2rem 0 1.1rem; }
+    .working-list { list-style:none; padding:0 0 0 1.1rem; margin:0; border-left:2px solid var(--line); }
+    .working-list li { margin:0 0 1rem; }
+    .working-list li:last-child { margin:0; }
+    .working-title { display:block; font-family:var(--serif); font-size:1.125rem; color:var(--ink); line-height:1.5; }
+    .working-authors { display:block; color:var(--muted); font-size:.9375rem; margin-top:.15rem; }
+    .working-status { display:block; color:var(--muted); font-size:.875rem; margin-top:.15rem; }
+    .talk-list { padding:0; margin:0; list-style:none; }
+    .talk { display:grid; grid-template-columns:110px minmax(0,1fr); gap:1.5rem; padding:1rem 0; border-bottom:1px solid var(--line); }
+    .talk:first-child { padding-top:0; }
+    .talk:last-child { border:0; padding-bottom:0; }
+    .talk time { color:var(--muted); font-size:.9375rem; }
+    .talk-title { display:block; font-size:1rem; font-weight:600; line-height:1.65; }
+    .talk-venue { display:block; font-size:.9375rem; color:var(--muted); margin-top:.1rem; }
+    .talk-link { font-size:.875rem; text-decoration:none; }
+    footer { border-top:1px solid var(--line); padding:1.5rem 0 2rem; color:var(--muted); font-size:.875rem; }
+    .footer-inner { display:flex; flex-wrap:wrap; justify-content:space-between; gap:.4rem 2rem; }
+    footer a { text-decoration:none; }
+    @media(min-width:761px) { .site-header { position:sticky; top:0; z-index:5; } }
+    @media(max-width:680px) {
+      .container { width:calc(100% - 40px); }
+      .header-inner { align-items:flex-start; flex-direction:column; gap:.3rem; padding:1rem 0 .8rem; }
+      .wordmark { font-size:1.25rem; }
+      nav { gap:.25rem 1.2rem; font-size:.9375rem; }
+      .intro { padding:2.3rem 0; }
+      .portrait { float:none; width:180px; max-width:100%; margin:0 0 1.5rem; }
+      h1 { font-size:2.7rem; }
+      .eyebrow { letter-spacing:.03em; }
+      h2 { font-size:1.6rem; }
+      .activity-list li,.talk { grid-template-columns:1fr; gap:.2rem; }
+      .paper { grid-template-columns:1fr; gap:.25rem; }
+      .paper-year { padding:0; }
+      section.content-section { padding:1.8rem 0 2rem; }
+    }
+    @media print { body { border:0; background:#fff; font-size:10pt; } .container { width:100%; } .site-header,.skip,.quick-links,footer { display:none; } .intro { padding:0 0 1.5rem; } h1 { font-size:28pt; } .paper,.talk { break-inside:avoid; } h2,h3 { break-after:avoid; } a { color:inherit; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#about" aria-label="Shengjing Xu, home">Shengjing Xu</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#activities">Activities</a>
+        <a href="#papers">Papers</a>
+        <a href="#talks">Talks</a>
+        <a href="assets/Shengjing_Xu_CV.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section id="about" class="intro" aria-labelledby="name">
+      <img class="portrait" src="assets/Shengjing_Xu.jpg" alt="Shengjing Xu" width="1086" height="1448" fetchpriority="high">
+      <div>
+        <p class="eyebrow">University of Pennsylvania · Mathematics</p>
+        <h1 id="name">Shengjing Xu</h1>
+        <div class="intro-copy">
+          <p class="lead">I am a Ph.D. student in the <a href="https://www.math.upenn.edu/">Department of Mathematics</a> at the University of Pennsylvania, where I work with <a href="https://www2.math.upenn.edu/~tpantev/">Tony Pantev</a> and <a href="http://faculty.bicmr.pku.edu.cn/~xinsun/">Xin Sun</a>.</p>
+          <p class="job-market"><strong>I am on the academic job market for 2026-2027.</strong></p>
+          <p>My research lies at the interface of complex algebraic geometry and probability. I study Higgs bundles, flat connections, and their connections to the Langlands program. On the probability side, I study probabilistic Liouville theory and random surfaces, as well as random matrices and particle systems.</p>
+          <p>Before coming to Penn, I received my B.S. in Mathematics from the University of Science and Technology of China in 2022.</p>
+          <p class="degree-note">Expected Ph.D. completion: May 2027.</p>
+        </div>
+        <div class="quick-links">
+          <a href="assets/Shengjing_Xu_CV.pdf">Curriculum vitae <span>(PDF)</span></a>
+          <a href="mailto:xsj@sas.upenn.edu">xsj@sas.upenn.edu</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="activities" class="content-section" aria-labelledby="activities-title">
+      <div class="section-heading"><h2 id="activities-title">Recent &amp; upcoming activities</h2></div>
+      <ul class="activity-list">
+        <li><time datetime="2026-10-03">3 Oct 2026</time><div><a href="https://www.ams.org/meetings/sectional/2332_program_ss28.html">AMS Fall Eastern Sectional Meeting, George Washington University</a><span class="activity-detail">Special Session on Schramm-Loewner Evolutions and Random Matrix Theory</span><span class="activity-detail">Dynamical edge universality and the Airy-β line ensemble</span></div></li>
+        <li><time datetime="2026-10-14">14 Oct 2026</time><div><a href="https://www.math.stonybrook.edu/calendar">Algebraic Geometry Seminar, Stony Brook University</a></div></li>
+      </ul>
+    </section>
+
+    <section id="papers" class="content-section" aria-labelledby="papers-title">
+      <div class="section-heading"><h2 id="papers-title">Papers &amp; preprints</h2></div>
+      <ol class="paper-list" reversed>
+        <li class="paper">
+          <div class="paper-year">2026</div>
+          <div>
+            <h3>Qin’s quasimodularity conjecture for Hilbert schemes of points <span class="paper-tag">[AI-assisted]</span></h3>
+            <p class="authors">Victor Alekseev, Avik Chakravarty, Daebeom Choi, and <span class="self">Shengjing Xu</span></p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2609.33884">arXiv:2609.33884</a></p>
+          </div>
+        </li>
+        <li class="paper">
+          <div class="paper-year">2026</div>
+          <div>
+            <h3>String equation for conformal loop ensemble on Liouville quantum gravity sphere</h3>
+            <p class="authors">Xin Sun, Baojun Wu, and <span class="self">Shengjing Xu</span></p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2609.17826">arXiv:2609.17826</a></p>
+          </div>
+        </li>
+        <li class="paper">
+          <div class="paper-year">2026</div>
+          <div>
+            <h3>Support of Dyson Brownian Motion</h3>
+            <p class="authors">Jiaoyang Huang and <span class="self">Shengjing Xu</span></p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2609.01770">arXiv:2609.01770</a><span class="status">Submitted</span></p>
+          </div>
+        </li>
+        <li class="paper">
+          <div class="paper-year">2026</div>
+          <div>
+            <h3>Counterexamples to Sato’s Weak F-Equivalence Conjecture and a Gorenstein Refinement <span class="paper-tag">[AI-assisted]</span></h3>
+            <p class="authors">Avik Chakravarty, Daebeom Choi, and <span class="self">Shengjing Xu</span></p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2608.18054">arXiv:2608.18054</a><span class="status">Submitted</span></p>
+          </div>
+        </li>
+        <li class="paper">
+          <div class="paper-year">2026</div>
+          <div>
+            <h3>Ward identities: a geometric point of view and applications</h3>
+            <p class="authors">Baojun Wu and <span class="self">Shengjing Xu</span></p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2608.11550">arXiv:2608.11550</a></p>
+          </div>
+        </li>
+        <li class="paper">
+          <div class="paper-year">2026</div>
+          <div>
+            <h3>Lagrangian correspondences for moduli spaces of Higgs bundles and holomorphic connections</h3>
+            <p class="authors">Panagiotis Dimakis, Duong Dinh, and <span class="self">Shengjing Xu</span></p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2604.14127">arXiv:2604.14127</a></p>
+          </div>
+        </li>
+        <li class="paper">
+          <div class="paper-year">2024</div>
+          <div>
+            <h3>Annulus crossing formulae for critical planar percolation</h3>
+            <p class="authors">Xin Sun, <span class="self">Shengjing Xu</span>, and Zijie Zhuang</p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2410.04767">arXiv:2410.04767</a><span class="status">Submitted</span></p>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="subheading">In preparation</h3>
+      <ul class="working-list">
+        <li><span class="working-title">Moduli Space of Residue Parameters and Lagrangian Correspondence for λ-Connections</span><span class="working-authors">Daebeom Choi and Shengjing Xu</span><span class="working-status">Draft available upon request.</span></li>
+        <li><span class="working-title">Colored divisors and Lagrangian correspondence for G Higgs bundle</span><span class="working-authors">Daebeom Choi and Shengjing Xu</span></li>
+        <li><span class="working-title">Dynamical edge universality and the Airy-β line ensemble</span><span class="working-authors">Jiaoyang Huang, Shengjing Xu, and Yulei Xu</span><span class="working-status">Draft available upon request.</span></li>
+      </ul>
+    </section>
+
+    <section id="talks" class="content-section" aria-labelledby="talks-title">
+      <div class="section-heading"><h2 id="talks-title">Research talks</h2></div>
+      <ul class="talk-list">
+        <li class="talk"><time datetime="2026-09-21">21 Sep 2026</time><div><span class="talk-title">Holomorphic Lagrangians, Colored Divisors, and Higgs Bundles</span><span class="talk-venue">Geometry &amp; Topology Seminar · University of Maryland</span><a class="talk-link" href="https://www-math.umd.edu/research/seminars/geometry-topology-seminar.html">Event &amp; abstract</a></div></li>
+        <li class="talk"><time datetime="2026-08">Aug 2026</time><div><span class="talk-title">Generalized Baker–Akhiezer divisors and residue parameters</span><span class="talk-venue">Poster · Higher Structures, Moduli Spaces and Integrability · University of Hamburg</span></div></li>
+        <li class="talk"><time datetime="2026-06-25">25 Jun 2026</time><div><span class="talk-title">Holomorphic Lagrangians in Higgs and de Rham Moduli Spaces</span><span class="talk-venue">Mathematics-String Theory Seminar · Kavli IPMU, University of Tokyo</span><a class="talk-link" href="https://db.ipmu.jp/seminar/?seminar_id=3255">Event &amp; abstract</a></div></li>
+        <li class="talk"><time datetime="2026-04-16">16 Apr 2026</time><div><span class="talk-title">Holomorphic Lagrangians in Higgs and de Rham Moduli Spaces</span><span class="talk-venue">Caltech/USC Joint Algebra and Geometry Seminar · University of Southern California</span><a class="talk-link" href="https://www.caltech.edu/campus-life-events/calendar/caltechusc-joint-algebra-and-geometry-seminar-18">Event &amp; abstract</a></div></li>
+        <li class="talk"><time datetime="2026-04">Apr 2026</time><div><span class="talk-title">Holomorphic Lagrangians in Higgs and de Rham Moduli Spaces</span><span class="talk-venue">Math-Physics Joint Seminar · University of Pennsylvania</span></div></li>
+        <li class="talk"><time datetime="2026-02">Feb 2026</time><div><span class="talk-title">Holomorphic Lagrangians in Higgs and de Rham Moduli Spaces</span><span class="talk-venue">Differential Geometry Seminar · University of Hamburg</span></div></li>
+        <li class="talk"><time datetime="2025">Summer 2025</time><div><span class="talk-title">Ward identity: a geometric point of view and applications</span><span class="talk-venue">Probability Seminar · Peking University</span></div></li>
+        <li class="talk"><time datetime="2022">Summer 2022</time><div><span class="talk-title">Liouville quantum gravity sphere</span><span class="talk-venue">Probability Seminar · University of Science and Technology of China</span></div></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer><div class="container footer-inner"><span>Shengjing Xu · University of Pennsylvania</span><span>Updated 29 September 2026 · <a href="#about">Back to top</a></span></div></footer>
+</body>
+</html>
